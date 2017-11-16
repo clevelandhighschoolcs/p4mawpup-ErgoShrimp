@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<link href="http://gmpg.org/xfn/11" rel="profile"/>
+<link href="https://nathan440.wordpress.com/xmlrpc.php" rel="pingback"/>
+<title>Unity Blog – My adventure through Unity… or something…</title>
+<meta content="noindex,follow" name="robots">
+<link href="//s2.wp.com" rel="dns-prefetch">
+<link href="//s0.wp.com" rel="dns-prefetch">
+<link href="//s1.wp.com" rel="dns-prefetch"/>
+<link href="//fonts.googleapis.com" rel="dns-prefetch"/>
+<link href="https://nathan440.wordpress.com/feed/" rel="alternate" title="Unity Blog » Feed" type="application/rss+xml"/>
+<link href="https://nathan440.wordpress.com/comments/feed/" rel="alternate" title="Unity Blog » Comments Feed" type="application/rss+xml"/>
+<script type="text/javascript">
+		/* <![CDATA[ */
+		function addLoadEvent(func) {
+			var oldonload = window.onload;
+			if (typeof window.onload != 'function') {
+				window.onload = func;
+			} else {
+				window.onload = function () {
+					oldonload();
+					func();
+				}
+			}
+		}
+		/* ]]> */
+	</script>
+<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/72x72\/","ext":".png","svgUrl":"https:\/\/s0.wp.com\/wp-content\/mu-plugins\/wpcom-smileys\/twemoji\/2\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/s2.wp.com\/wp-includes\/js\/wp-emoji-release.min.js?m=1505864856h&ver=4.9-RC-20171115"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56794,8205,9794,65039],[55358,56794,8203,9794,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link href="https://s2.wp.com/_static/??-eJx9kNEOgjAMRX/IuZAo4oPxW9ioUFjHQrsgf++Q4IOavSy3zTlZWz0HZUcv4EVTVMHFFj3rOdiRFBM6WL6qo2U+6P+awwFY9yChtoN6Vzkc/QM9yvIJOdiOE6Q+hVpWgqDBGhxQwnLajE0LknTesxJ4ZhUK5f7RGru0S3aN7TzGhAmYVXoJIynp0my/3tbWIZp0LTOBZlkcrNidbsXpWlaXojoX/Qug5Jlg" id="all-css-0-1" media="all" rel="stylesheet" type="text/css"/>
+<link href="https://fonts.googleapis.com/css?family=Libre+Baskerville%3A400%2C400italic%2C700&amp;subset=latin%2Clatin-ext" id="libre-libre-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="https://s1.wp.com/_static/??-eJx9jFEKwkAMRC9kDKuC+iGeZV23IZImpUnp9V0pQgvi3zzmzeA8QDGNqoH9BINMxOo485NqOLoVzgLclC3si/sOGdViKb9hKX6/UjUQKznYdAPQSebx33SsDzFqkbBZK/yM7v0tna7nwyWlY3q9ARkFTkA=" id="all-css-2-1" media="all" rel="stylesheet" type="text/css"/>
+<link href="https://s0.wp.com/wp-content/mu-plugins/global-print/global-print.css?m=1465851035h" id="print-css-3-1" media="print" rel="stylesheet" type="text/css"/>
+<link href="https://s2.wp.com/_static/??-eJx1yzEOwjAMRuELEX6Q2lIGxFkSy2qDHCeqHVXcHjHB0u0N38PeAlV1VkfpoUlfshoiea6a4varM5md8Md95cKG1hMkp42RlWD+Fg57o1qOhnXAIjVF+YJneVyH++U2T+M8vj7wZzOI" id="all-css-4-1" media="all" rel="stylesheet" type="text/css"/>
+<script src="https://s1.wp.com/_static/??-eJyF0G0KwjAMBuAL2dXJxP0Rz1Lr60hdP2zaDT29FSYiVIVAIHkISeQcBDk95hNYmhLXjHhbUmN4JX8BYWmIKqGx5F5Ye5fg0tNaf6QRIjOiGkqtDDr7iguekwVzQZXu50rkJsL8lxmkoPRFRDDdUTuEw3vn7x9Y1MHu267fbfp2263NA675cvs=" type="text/javascript"></script>
+<link href="https://s1.wp.com/wp-content/mu-plugins/highlander-comments/style.css?m=1377793621h" id="all-css-0-2" media="all" rel="stylesheet" type="text/css"/>
+<!--[if lt IE 8]>
+<link rel='stylesheet' id='highlander-comments-ie7-css'  href='https://s1.wp.com/wp-content/mu-plugins/highlander-comments/style-ie7.css?m=1351637563h&#038;ver=20110606' type='text/css' media='all' />
+<![endif]-->
+<link href="https://nathan440.wordpress.com/xmlrpc.php?rsd" rel="EditURI" title="RSD" type="application/rsd+xml"/>
+<link href="https://s1.wp.com/wp-includes/wlwmanifest.xml" rel="wlwmanifest" type="application/wlwmanifest+xml"/>
+<meta content="WordPress.com" name="generator">
+<link href="https://wp.me/7Vw2K" rel="shortlink"/>
+<!-- Jetpack Open Graph Tags -->
+<meta content="website" property="og:type"/>
+<meta content="Unity Blog" property="og:title"/>
+<meta content="My adventure through Unity... or something..." property="og:description"/>
+<meta content="https://nathan440.wordpress.com/" property="og:url"/>
+<meta content="Unity Blog" property="og:site_name"/>
+<meta content="https://s0.wp.com/i/blank.jpg" property="og:image"/>
+<meta content="en_US" property="og:locale"/>
+<meta content="@wordpressdotcom" name="twitter:site"/>
+<meta content="249643311490" property="fb:app_id"/>
+<link href="https://s2.wp.com/i/favicon.ico" rel="shortcut icon" sizes="16x16 24x24 32x32 48x48" type="image/x-icon"/>
+<link href="https://s2.wp.com/i/favicon.ico" rel="icon" sizes="16x16 24x24 32x32 48x48" type="image/x-icon"/>
+<link href="https://s0.wp.com/i/webclip.png" rel="apple-touch-icon-precomposed"/>
+<link href="https://nathan440.wordpress.com/osd.xml" rel="search" title="Unity Blog" type="application/opensearchdescription+xml"/>
+<link href="https://s1.wp.com/opensearch.xml" rel="search" title="WordPress.com" type="application/opensearchdescription+xml"/>
+<meta content="#333333" name="theme-color"/>
+<meta content="Unity Blog" name="application-name"/><meta content="width=device-width;height=device-height" name="msapplication-window"/><meta content="My adventure through Unity... or something..." name="msapplication-tooltip"/><meta content="name=Subscribe;action-uri=https://nathan440.wordpress.com/feed/;icon-uri=https://s2.wp.com/i/favicon.ico" name="msapplication-task"/><meta content="name=Sign up for a free blog;action-uri=http://wordpress.com/signup/;icon-uri=https://s2.wp.com/i/favicon.ico" name="msapplication-task"/><meta content="name=WordPress.com Support;action-uri=http://support.wordpress.com/;icon-uri=https://s2.wp.com/i/favicon.ico" name="msapplication-task"/><meta content="name=WordPress.com Forums;action-uri=http://forums.wordpress.com/;icon-uri=https://s2.wp.com/i/favicon.ico" name="msapplication-task"/><meta content="Unity Blog on WordPress.com" name="title"/>
+<meta content="My adventure through Unity... or something..." name="description"/>
+<style id="custom-background-css" type="text/css">
+body.custom-background { background-color: #333333; }
+</style>
+<style id="syntaxhighlighteranchor" type="text/css"></style>
+<style id="custom-colors-css" type="text/css">body,.sticking .site-header,.main-navigation ul ul,.widget_archive a,.widget_categories a,.widget .post-count{background-color:#333}.custom-background .site{background-color:#333}input[type="text"],input[type="email"],input[type="url"],input[type="password"],input[type="search"]{background-color:#333}.sd-social-icon .sd-content ul li[class*="share-"] a:hover,.sd-social-icon .sd-content ul li[class*="share-"] div.option a:hover,.sd-social-icon .sd-content ul li[class*="share-"] a.sd-button.no-text:hover{color:#333}.sd-social-icon .sd-content ul li[class*="share-"] a.sd-button.no-text{color:#333}.sd-social-icon .sd-content ul li a.sd-button,.sd-social-text .sd-content ul li a.sd-button,.sd-content ul li a.sd-button,.sd-content ul li .option a.share-ustom,.sd-content ul li.preview-item div.option.option-smart-off a,.sd-content ul li.advanced a.share-more,.sd-social-icon-text .sd-content ul li a.sd-button,#sharing_email .sharing_send{color:#333}.sd-social-icon .sd-content ul li a.sd-button:hover,.sd-social-icon .sd-content ul li a.sd-button:active,.sd-social-text .sd-content ul li a.sd-button:hover,.sd-social-text .sd-content ul li a.sd-button:active,.sd-social-icon-text .sd-content ul li a.sd-button:hover,.sd-social-icon-text .sd-content ul li a.sd-button:active{color:#333}body,a,a:visited,a:hover,a:active,a:focus{color:#ededed}#infinite-footer .blog-info a,#infinite-footer .blog-credits a{color:#ededed}hr{background-color:#ededed}.site *{border-color:#ededed}button,input[type="button"],input[type="reset"],input[type="submit"],#infinite-handle span{color:#ededed}input[type="text"],input[type="email"],input[type="url"],input[type="password"],input[type="search"]{color:#ededed}body.highlander-light h3.sd-title:before{border-color:#ededed}.sd-social-icon .sd-content ul li[class*="share-"] a.sd-button.no-text{background-color:#ededed}.sd-social-icon .sd-content ul li[class*="share-"] a:hover,.sd-social-icon .sd-content ul li[class*="share-"] div.option a:hover,.sd-social-icon .sd-content ul li[class*="share-"] a.sd-button.no-text:hover{background-color:#ededed}.sd-social-icon .sd-content ul li a.sd-button,.sd-social-text .sd-content ul li a.sd-button,.sd-content ul li a.sd-button,.sd-content ul li .option a.share-ustom,.sd-content ul li.preview-item div.option.option-smart-off a,.sd-content ul li.advanced a.share-more,.sd-social-icon-text .sd-content ul li a.sd-button,#sharing_email .sharing_send{background-color:#c1c1c1}.sd-social-icon .sd-content ul li a.sd-button:hover,.sd-social-icon .sd-content ul li a.sd-button:active,.sd-social-text .sd-content ul li a.sd-button:hover,.sd-social-text .sd-content ul li a.sd-button:active,.sd-social-icon-text .sd-content ul li a.sd-button:hover,.sd-social-icon-text .sd-content ul li a.sd-button:active{background-color:#b7b7b7}input[type="text"]:focus,input[type="email"]:focus,input[type="url"]:focus,input[type="password"]:focus,input[type="search"]:focus,textarea:focus{color:#ededed}.site-title a,.site-title a:hover,.site-title a:visited{color:#e7af4f}h1,h2,h3,h4,h5,h6,.entry-title,.entry-title a:visited,.entry-title a,.page-title,.entry-title a:hover{color:#e7af4f}</style>
+</meta></link></link></meta></head>
+<body class="home blog custom-background mp6 customizer-styles-applied highlander-enabled highlander-light infinite-scroll">
+<div class="hfeed site" id="page">
+<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+<a href="https://nathan440.wordpress.com/" rel="home">
+<img alt="" class="custom-header" height="300" src="https://defaultcustomheadersdata.files.wordpress.com/2016/07/city1.jpg?resize=1088,300" width="1088"/>
+</a>
+<header class="site-header" id="masthead" role="banner">
+<div class="site-branding">
+<h1 class="site-title"><a href="https://nathan440.wordpress.com/" rel="home">Unity Blog</a></h1>
+<p class="site-description">My adventure through Unity… or something…</p>
+</div><!-- .site-branding -->
+<nav class="main-navigation" id="site-navigation" role="navigation">
+<button aria-controls="primary-menu" aria-expanded="false" class="menu-toggle">Menu</button>
+<div class="menu-primary-container"><ul class="menu" id="primary-menu"><li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-8" id="menu-item-8"><a href="/">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9" id="menu-item-9"><a href="https://nathan440.wordpress.com/about/">About</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-10" id="menu-item-10"><a href="https://nathan440.wordpress.com/contact/">Contact</a></li>
+</ul></div> </nav><!-- #site-navigation -->
+</header><!-- #masthead -->
+<div class="site-content" id="content">
+<div class="content-area" id="primary">
+<main class="site-main" id="main" role="main">
+<article class="post-412 post type-post status-publish format-standard hentry category-uncategorized" id="post-412">
+<header class="entry-header">
+<h2 class="entry-title"><a href="https://nathan440.wordpress.com/2017/05/22/may-22th/" rel="bookmark">May 22th</a></h2>
+<div class="entry-meta">
+<span class="posted-on"><a href="https://nathan440.wordpress.com/2017/05/22/may-22th/" rel="bookmark"><time class="entry-date published updated" datetime="2017-05-22T22:14:29+00:00">May 22, 2017</time></a></span><span class="byline"> <span class="author vcard"><a class="url fn n" href="https://nathan440.wordpress.com/author/nathanjes/">nathanjes</a></span></span><span class="comments-link"><a href="https://nathan440.wordpress.com/2017/05/22/may-22th/#respond">Leave a comment</a></span> </div><!-- .entry-meta -->
+</header><!-- .entry-header -->
+<div class="entry-content">
+<p>Today I worked on making sure the game was ready for launch! I made the victory scene a lot better.</p>
+<p> </p>
+<p><img alt="May22" class="alignnone size-full wp-image-414" data-attachment-id="414" data-comments-opened="1" data-image-description="" data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":"","orientation":"0"}' data-image-title="May22" data-large-file="https://nathan440.files.wordpress.com/2017/05/may22.png?w=739?w=739" data-medium-file="https://nathan440.files.wordpress.com/2017/05/may22.png?w=739?w=300" data-orig-file="https://nathan440.files.wordpress.com/2017/05/may22.png?w=739" data-orig-size="841,519" data-permalink="https://nathan440.wordpress.com/2017/05/22/may-22th/may22/" sizes="(max-width: 739px) 100vw, 739px" src="https://nathan440.files.wordpress.com/2017/05/may22.png?w=739" srcset="https://nathan440.files.wordpress.com/2017/05/may22.png?w=739 739w, https://nathan440.files.wordpress.com/2017/05/may22.png?w=150 150w, https://nathan440.files.wordpress.com/2017/05/may22.png?w=300 300w, https://nathan440.files.wordpress.com/2017/05/may22.png?w=768 768w, https://nathan440.files.wordpress.com/2017/05/may22.png 841w"/></p>
+</div><!-- .entry-content -->
+</article><!-- #post-## -->
+<article class="post-408 post type-post status-publish format-standard hentry category-uncategorized" id="post-408">
+<header class="entry-header">
+<h2 class="entry-title"><a href="https://nathan440.wordpress.com/2017/05/18/may-18th/" rel="bookmark">May 18th</a></h2>
+<div class="entry-meta">
+<span class="posted-on"><a href="https://nathan440.wordpress.com/2017/05/18/may-18th/" rel="bookmark"><time class="entry-date published updated" datetime="2017-05-18T21:07:52+00:00">May 18, 2017</time></a></span><span class="byline"> <span class="author vcard"><a class="url fn n" href="https://nathan440.wordpress.com/author/nathanjes/">nathanjes</a></span></span><span class="comments-link"><a href="https://nathan440.wordpress.com/2017/05/18/may-18th/#respond">Leave a comment</a></span> </div><!-- .entry-meta -->
+</header><!-- .entry-header -->
+<div class="entry-content">
+<p>I worked on the presentation video today. That’s all.</p>
+<p> </p>
+<p><img alt="Title.PNG" class="alignnone size-full wp-image-410" data-attachment-id="410" data-comments-opened="1" data-image-description="" data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":"","orientation":"0"}' data-image-title="Title" data-large-file="https://nathan440.files.wordpress.com/2017/05/title.png?w=739?w=739" data-medium-file="https://nathan440.files.wordpress.com/2017/05/title.png?w=739?w=300" data-orig-file="https://nathan440.files.wordpress.com/2017/05/title.png?w=739" data-orig-size="842,520" data-permalink="https://nathan440.wordpress.com/2017/05/18/may-18th/title/" sizes="(max-width: 739px) 100vw, 739px" src="https://nathan440.files.wordpress.com/2017/05/title.png?w=739" srcset="https://nathan440.files.wordpress.com/2017/05/title.png?w=739 739w, https://nathan440.files.wordpress.com/2017/05/title.png?w=150 150w, https://nathan440.files.wordpress.com/2017/05/title.png?w=300 300w, https://nathan440.files.wordpress.com/2017/05/title.png?w=768 768w, https://nathan440.files.wordpress.com/2017/05/title.png 842w"/></p>
+</div><!-- .entry-content -->
+</article><!-- #post-## -->
+<article class="post-403 post type-post status-publish format-standard hentry category-uncategorized" id="post-403">
+<header class="entry-header">
+<h2 class="entry-title"><a href="https://nathan440.wordpress.com/2017/05/16/may-16th/" rel="bookmark">May 16th</a></h2>
+<div class="entry-meta">
+<span class="posted-on"><a href="https://nathan440.wordpress.com/2017/05/16/may-16th/" rel="bookmark"><time class="entry-date published updated" datetime="2017-05-16T22:03:59+00:00">May 16, 2017</time></a></span><span class="byline"> <span class="author vcard"><a class="url fn n" href="https://nathan440.wordpress.com/author/nathanjes/">nathanjes</a></span></span><span class="comments-link"><a href="https://nathan440.wordpress.com/2017/05/16/may-16th/#respond">Leave a comment</a></span> </div><!-- .entry-meta -->
+</header><!-- .entry-header -->
+<div class="entry-content">
+<p>I have begun working on the final level, and I am working on updating the tutorial and story screens (as well as how I am teaching controls). I completed level four.</p>
+<p> </p>
+<p><img alt="May16" class="alignnone size-full wp-image-405" data-attachment-id="405" data-comments-opened="1" data-image-description="" data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":"","orientation":"0"}' data-image-title="May16" data-large-file="https://nathan440.files.wordpress.com/2017/05/may16.png?w=739?w=414" data-medium-file="https://nathan440.files.wordpress.com/2017/05/may16.png?w=739?w=288" data-orig-file="https://nathan440.files.wordpress.com/2017/05/may16.png?w=739" data-orig-size="414,432" data-permalink="https://nathan440.wordpress.com/2017/05/16/may-16th/may16/" sizes="(max-width: 414px) 100vw, 414px" src="https://nathan440.files.wordpress.com/2017/05/may16.png?w=739" srcset="https://nathan440.files.wordpress.com/2017/05/may16.png 414w, https://nathan440.files.wordpress.com/2017/05/may16.png?w=144 144w, https://nathan440.files.wordpress.com/2017/05/may16.png?w=288 288w"/></p>
+</div><!-- .entry-content -->
+</article><!-- #post-## -->
+<article class="post-400 post type-post status-publish format-standard hentry category-uncategorized" id="post-400">
+<header class="entry-header">
+<h2 class="entry-title"><a href="https://nathan440.wordpress.com/2017/05/12/may-12th/" rel="bookmark">May 12th</a></h2>
+<div class="entry-meta">
+<span class="posted-on"><a href="https://nathan440.wordpress.com/2017/05/12/may-12th/" rel="bookmark"><time class="entry-date published updated" datetime="2017-05-12T21:13:14+00:00">May 12, 2017</time></a></span><span class="byline"> <span class="author vcard"><a class="url fn n" href="https://nathan440.wordpress.com/author/nathanjes/">nathanjes</a></span></span><span class="comments-link"><a href="https://nathan440.wordpress.com/2017/05/12/may-12th/#respond">Leave a comment</a></span> </div><!-- .entry-meta -->
+</header><!-- .entry-header -->
+<div class="entry-content">
+<p>Today I completed the code again to be more testable.</p>
+<p> </p>
+<p><img alt="Blog.PNG" class="alignnone size-full wp-image-401" data-attachment-id="401" data-comments-opened="1" data-image-description="" data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":"","orientation":"0"}' data-image-title="Blog" data-large-file="https://nathan440.files.wordpress.com/2017/05/blog.png?w=739?w=739" data-medium-file="https://nathan440.files.wordpress.com/2017/05/blog.png?w=739?w=300" data-orig-file="https://nathan440.files.wordpress.com/2017/05/blog.png?w=739" data-orig-size="893,278" data-permalink="https://nathan440.wordpress.com/2017/05/12/may-12th/blog/" sizes="(max-width: 739px) 100vw, 739px" src="https://nathan440.files.wordpress.com/2017/05/blog.png?w=739" srcset="https://nathan440.files.wordpress.com/2017/05/blog.png?w=739 739w, https://nathan440.files.wordpress.com/2017/05/blog.png?w=150 150w, https://nathan440.files.wordpress.com/2017/05/blog.png?w=300 300w, https://nathan440.files.wordpress.com/2017/05/blog.png?w=768 768w, https://nathan440.files.wordpress.com/2017/05/blog.png 893w"/></p>
+</div><!-- .entry-content -->
+</article><!-- #post-## -->
+<article class="post-395 post type-post status-publish format-standard hentry category-uncategorized" id="post-395">
+<header class="entry-header">
+<h2 class="entry-title"><a href="https://nathan440.wordpress.com/2017/05/10/may-10th/" rel="bookmark">May 10th</a></h2>
+<div class="entry-meta">
+<span class="posted-on"><a href="https://nathan440.wordpress.com/2017/05/10/may-10th/" rel="bookmark"><time class="entry-date published updated" datetime="2017-05-10T21:40:45+00:00">May 10, 2017</time></a></span><span class="byline"> <span class="author vcard"><a class="url fn n" href="https://nathan440.wordpress.com/author/nathanjes/">nathanjes</a></span></span><span class="comments-link"><a href="https://nathan440.wordpress.com/2017/05/10/may-10th/#respond">Leave a comment</a></span> </div><!-- .entry-meta -->
+</header><!-- .entry-header -->
+<div class="entry-content">
+<p>Today I have gotten the explosive code to work perfectly! I also got the wall working by adding a wizard inside that allows Unity to work properly (Morgan and I are still confused).</p>
+<p><img alt="May10" class="alignnone size-full wp-image-397" data-attachment-id="397" data-comments-opened="1" data-image-description="" data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":"","orientation":"0"}' data-image-title="May10" data-large-file="https://nathan440.files.wordpress.com/2017/05/may10.png?w=739?w=575" data-medium-file="https://nathan440.files.wordpress.com/2017/05/may10.png?w=739?w=300" data-orig-file="https://nathan440.files.wordpress.com/2017/05/may10.png?w=739" data-orig-size="575,420" data-permalink="https://nathan440.wordpress.com/2017/05/10/may-10th/may10/" sizes="(max-width: 575px) 100vw, 575px" src="https://nathan440.files.wordpress.com/2017/05/may10.png?w=739" srcset="https://nathan440.files.wordpress.com/2017/05/may10.png 575w, https://nathan440.files.wordpress.com/2017/05/may10.png?w=150 150w, https://nathan440.files.wordpress.com/2017/05/may10.png?w=300 300w"/></p>
+<p>Also trying to add in the fish model Morgan made a while ago.</p>
+</div><!-- .entry-content -->
+</article><!-- #post-## -->
+<article class="post-390 post type-post status-publish format-standard hentry category-uncategorized" id="post-390">
+<header class="entry-header">
+<h2 class="entry-title"><a href="https://nathan440.wordpress.com/2017/05/08/may-8th/" rel="bookmark">May 8th</a></h2>
+<div class="entry-meta">
+<span class="posted-on"><a href="https://nathan440.wordpress.com/2017/05/08/may-8th/" rel="bookmark"><time class="entry-date published updated" datetime="2017-05-08T21:52:26+00:00">May 8, 2017</time></a></span><span class="byline"> <span class="author vcard"><a class="url fn n" href="https://nathan440.wordpress.com/author/nathanjes/">nathanjes</a></span></span><span class="comments-link"><a href="https://nathan440.wordpress.com/2017/05/08/may-8th/#respond">Leave a comment</a></span> </div><!-- .entry-meta -->
+</header><!-- .entry-header -->
+<div class="entry-content">
+<p>Today I focused on the Contact mini project. I made the sheep level a little more difficult, and I added a longer honey power up.</p>
+<p> </p>
+<p><img alt="May8.PNG" class="alignnone size-full wp-image-392" data-attachment-id="392" data-comments-opened="1" data-image-description="" data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":"","orientation":"0"}' data-image-title="May8" data-large-file="https://nathan440.files.wordpress.com/2017/05/may8.png?w=739?w=728" data-medium-file="https://nathan440.files.wordpress.com/2017/05/may8.png?w=739?w=300" data-orig-file="https://nathan440.files.wordpress.com/2017/05/may8.png?w=739" data-orig-size="728,394" data-permalink="https://nathan440.wordpress.com/2017/05/08/may-8th/may8/" sizes="(max-width: 728px) 100vw, 728px" src="https://nathan440.files.wordpress.com/2017/05/may8.png?w=739" srcset="https://nathan440.files.wordpress.com/2017/05/may8.png 728w, https://nathan440.files.wordpress.com/2017/05/may8.png?w=150 150w, https://nathan440.files.wordpress.com/2017/05/may8.png?w=300 300w"/></p>
+</div><!-- .entry-content -->
+</article><!-- #post-## -->
+<article class="post-386 post type-post status-publish format-standard hentry category-uncategorized" id="post-386">
+<header class="entry-header">
+<h2 class="entry-title"><a href="https://nathan440.wordpress.com/2017/05/04/may-4th/" rel="bookmark">May 4th</a></h2>
+<div class="entry-meta">
+<span class="posted-on"><a href="https://nathan440.wordpress.com/2017/05/04/may-4th/" rel="bookmark"><time class="entry-date published updated" datetime="2017-05-04T20:59:31+00:00">May 4, 2017</time></a></span><span class="byline"> <span class="author vcard"><a class="url fn n" href="https://nathan440.wordpress.com/author/nathanjes/">nathanjes</a></span></span><span class="comments-link"><a href="https://nathan440.wordpress.com/2017/05/04/may-4th/#respond">Leave a comment</a></span> </div><!-- .entry-meta -->
+</header><!-- .entry-header -->
+<div class="entry-content">
+<p>Today I continued to work more on the explosives. I worked out counting how many the player has easier, as well created the ability to summon them correctly. Now I am working with the object to have it “explode” and affect the area around it.</p>
+<p> </p>
+<p><img alt="May4" class="alignnone size-full wp-image-388" data-attachment-id="388" data-comments-opened="1" data-image-description="" data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":"","orientation":"0"}' data-image-title="May4" data-large-file="https://nathan440.files.wordpress.com/2017/05/may4.png?w=739?w=739" data-medium-file="https://nathan440.files.wordpress.com/2017/05/may4.png?w=739?w=300" data-orig-file="https://nathan440.files.wordpress.com/2017/05/may4.png?w=739" data-orig-size="803,470" data-permalink="https://nathan440.wordpress.com/2017/05/04/may-4th/may4/" sizes="(max-width: 739px) 100vw, 739px" src="https://nathan440.files.wordpress.com/2017/05/may4.png?w=739" srcset="https://nathan440.files.wordpress.com/2017/05/may4.png?w=739 739w, https://nathan440.files.wordpress.com/2017/05/may4.png?w=150 150w, https://nathan440.files.wordpress.com/2017/05/may4.png?w=300 300w, https://nathan440.files.wordpress.com/2017/05/may4.png?w=768 768w, https://nathan440.files.wordpress.com/2017/05/may4.png 803w"/></p>
+</div><!-- .entry-content -->
+</article><!-- #post-## -->
+<article class="post-382 post type-post status-publish format-standard hentry category-uncategorized" id="post-382">
+<header class="entry-header">
+<h2 class="entry-title"><a href="https://nathan440.wordpress.com/2017/04/28/april-29th/" rel="bookmark">April 29th</a></h2>
+<div class="entry-meta">
+<span class="posted-on"><a href="https://nathan440.wordpress.com/2017/04/28/april-29th/" rel="bookmark"><time class="entry-date published updated" datetime="2017-04-28T21:07:07+00:00">April 28, 2017</time></a></span><span class="byline"> <span class="author vcard"><a class="url fn n" href="https://nathan440.wordpress.com/author/nathanjes/">nathanjes</a></span></span><span class="comments-link"><a href="https://nathan440.wordpress.com/2017/04/28/april-29th/#respond">Leave a comment</a></span> </div><!-- .entry-meta -->
+</header><!-- .entry-header -->
+<div class="entry-content">
+<p>Today I significantly cleaned up the fireball code, to the point that I would consider it COMPLETE. Now I am working on giving the explosives a purpose.</p>
+<p> </p>
+<p><img alt="Apr28.PNG" class="alignnone size-full wp-image-384" data-attachment-id="384" data-comments-opened="1" data-image-description="" data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":"","orientation":"0"}' data-image-title="Apr28" data-large-file="https://nathan440.files.wordpress.com/2017/04/apr28.png?w=739?w=739" data-medium-file="https://nathan440.files.wordpress.com/2017/04/apr28.png?w=739?w=300" data-orig-file="https://nathan440.files.wordpress.com/2017/04/apr28.png?w=739" data-orig-size="1106,434" data-permalink="https://nathan440.wordpress.com/2017/04/28/april-29th/apr28/" sizes="(max-width: 739px) 100vw, 739px" src="https://nathan440.files.wordpress.com/2017/04/apr28.png?w=739" srcset="https://nathan440.files.wordpress.com/2017/04/apr28.png?w=739 739w, https://nathan440.files.wordpress.com/2017/04/apr28.png?w=150 150w, https://nathan440.files.wordpress.com/2017/04/apr28.png?w=300 300w, https://nathan440.files.wordpress.com/2017/04/apr28.png?w=768 768w, https://nathan440.files.wordpress.com/2017/04/apr28.png?w=1024 1024w, https://nathan440.files.wordpress.com/2017/04/apr28.png 1106w"/></p>
+</div><!-- .entry-content -->
+</article><!-- #post-## -->
+<article class="post-378 post type-post status-publish format-standard hentry category-uncategorized" id="post-378">
+<header class="entry-header">
+<h2 class="entry-title"><a href="https://nathan440.wordpress.com/2017/04/26/april-26th/" rel="bookmark">April 26th</a></h2>
+<div class="entry-meta">
+<span class="posted-on"><a href="https://nathan440.wordpress.com/2017/04/26/april-26th/" rel="bookmark"><time class="entry-date published updated" datetime="2017-04-26T22:04:14+00:00">April 26, 2017</time></a></span><span class="byline"> <span class="author vcard"><a class="url fn n" href="https://nathan440.wordpress.com/author/nathanjes/">nathanjes</a></span></span><span class="comments-link"><a href="https://nathan440.wordpress.com/2017/04/26/april-26th/#respond">Leave a comment</a></span> </div><!-- .entry-meta -->
+</header><!-- .entry-header -->
+<div class="entry-content">
+<p>I am working on making the fireball code more modular, but I am running into some issues still. I am working on adding more levels so that I actually have something to turn in.</p>
+<p> </p>
+<p><img alt="Apr26" class="alignnone size-full wp-image-380" data-attachment-id="380" data-comments-opened="1" data-image-description="" data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":"","orientation":"0"}' data-image-title="Apr26" data-large-file="https://nathan440.files.wordpress.com/2017/04/apr26.png?w=739?w=739" data-medium-file="https://nathan440.files.wordpress.com/2017/04/apr26.png?w=739?w=300" data-orig-file="https://nathan440.files.wordpress.com/2017/04/apr26.png?w=739" data-orig-size="1115,665" data-permalink="https://nathan440.wordpress.com/2017/04/26/april-26th/apr26/" sizes="(max-width: 739px) 100vw, 739px" src="https://nathan440.files.wordpress.com/2017/04/apr26.png?w=739" srcset="https://nathan440.files.wordpress.com/2017/04/apr26.png?w=739 739w, https://nathan440.files.wordpress.com/2017/04/apr26.png?w=150 150w, https://nathan440.files.wordpress.com/2017/04/apr26.png?w=300 300w, https://nathan440.files.wordpress.com/2017/04/apr26.png?w=768 768w, https://nathan440.files.wordpress.com/2017/04/apr26.png?w=1024 1024w, https://nathan440.files.wordpress.com/2017/04/apr26.png 1115w"/></p>
+</div><!-- .entry-content -->
+</article><!-- #post-## -->
+<article class="post-374 post type-post status-publish format-standard hentry category-uncategorized" id="post-374">
+<header class="entry-header">
+<h2 class="entry-title"><a href="https://nathan440.wordpress.com/2017/04/24/april-24th/" rel="bookmark">April 24th</a></h2>
+<div class="entry-meta">
+<span class="posted-on"><a href="https://nathan440.wordpress.com/2017/04/24/april-24th/" rel="bookmark"><time class="entry-date published updated" datetime="2017-04-24T22:02:21+00:00">April 24, 2017</time></a></span><span class="byline"> <span class="author vcard"><a class="url fn n" href="https://nathan440.wordpress.com/author/nathanjes/">nathanjes</a></span></span><span class="comments-link"><a href="https://nathan440.wordpress.com/2017/04/24/april-24th/#respond">Leave a comment</a></span> </div><!-- .entry-meta -->
+</header><!-- .entry-header -->
+<div class="entry-content">
+<p>Today I worked on the story scene for the game (which I thought I started, but couldn’t find). It has room for improvement.</p>
+<p><img alt="Apr24" class="alignnone size-full wp-image-376" data-attachment-id="376" data-comments-opened="1" data-image-description="" data-image-meta='{"aperture":"0","credit":"","camera":"","caption":"","created_timestamp":"0","copyright":"","focal_length":"0","iso":"0","shutter_speed":"0","title":"","orientation":"0"}' data-image-title="Apr24" data-large-file="https://nathan440.files.wordpress.com/2017/04/apr24.png?w=739?w=739" data-medium-file="https://nathan440.files.wordpress.com/2017/04/apr24.png?w=739?w=300" data-orig-file="https://nathan440.files.wordpress.com/2017/04/apr24.png?w=739" data-orig-size="836,505" data-permalink="https://nathan440.wordpress.com/2017/04/24/april-24th/apr24/" sizes="(max-width: 739px) 100vw, 739px" src="https://nathan440.files.wordpress.com/2017/04/apr24.png?w=739" srcset="https://nathan440.files.wordpress.com/2017/04/apr24.png?w=739 739w, https://nathan440.files.wordpress.com/2017/04/apr24.png?w=150 150w, https://nathan440.files.wordpress.com/2017/04/apr24.png?w=300 300w, https://nathan440.files.wordpress.com/2017/04/apr24.png?w=768 768w, https://nathan440.files.wordpress.com/2017/04/apr24.png 836w"/></p>
+</div><!-- .entry-content -->
+</article><!-- #post-## -->
+<nav class="navigation posts-navigation" role="navigation">
+<h2 class="screen-reader-text">Posts navigation</h2>
+<div class="nav-links"><div class="nav-previous"><a href="https://nathan440.wordpress.com/page/2/">Older posts</a></div></div>
+</nav>
+</main><!-- #main -->
+</div><!-- #primary -->
+</div><!-- #content -->
+<footer class="site-footer" id="colophon" role="contentinfo">
+<div class="footer-widgets clear">
+<div class="widget-area">
+<aside class="widget widget_rss_links" id="rss_links-3"><h2 class="widget-title">Links</h2><ul><li><a href="https://nathan440.wordpress.com/feed/" title="Subscribe to Posts">RSS - Posts</a></li><li><a href="https://nathan440.wordpress.com/comments/feed/" title="Subscribe to Comments">RSS - Comments</a></li></ul>
+</aside>
+</div><!-- .widget-area -->
+</div><!-- .footer-widgets -->
+<div class="site-info">
+<a href="https://wordpress.com/?ref=footer_custom_powered">Powered by WordPress.com</a>.
+			
+					</div><!-- .site-info -->
+</footer><!-- #colophon -->
+</div><!-- #page -->
+<script type="text/javascript">
+		//<![CDATA[
+		var infiniteScroll = {"settings":{"id":"main","ajaxurl":"https:\/\/nathan440.wordpress.com\/?infinity=scrolling","type":"click","wrapper":true,"wrapper_class":"infinite-wrap","footer":"masthead","click_handle":"1","text":"Older posts","totop":"Scroll back to top","currentday":"24.04.17","order":"DESC","scripts":[],"styles":[],"google_analytics":false,"offset":0,"history":{"host":"nathan440.wordpress.com","path":"\/page\/%d\/","use_trailing_slashes":true,"parameters":""},"query_args":{"error":"","m":"","p":0,"post_parent":"","subpost":"","subpost_id":"","attachment":"","attachment_id":0,"name":"","pagename":"","page_id":0,"second":"","minute":"","hour":"","day":0,"monthnum":0,"year":0,"w":0,"category_name":"","tag":"","cat":"","tag_id":"","author":"","author_name":"","feed":"","tb":"","paged":0,"meta_key":"","meta_value":"","preview":"","s":"","sentence":"","title":"","fields":"","menu_order":"","embed":"","category__in":[],"category__not_in":[],"category__and":[],"post__in":[],"post__not_in":[],"post_name__in":[],"tag__in":[],"tag__not_in":[],"tag__and":[],"tag_slug__in":[],"tag_slug__and":[],"post_parent__in":[],"post_parent__not_in":[],"author__in":[],"author__not_in":[],"posts_per_page":10,"ignore_sticky_posts":false,"suppress_filters":false,"cache_results":false,"update_post_term_cache":true,"lazy_load_term_meta":true,"update_post_meta_cache":true,"post_type":"","nopaging":false,"comments_per_page":"50","no_found_rows":false,"order":"DESC"},"last_post_date":"2017-04-24 22:02:21","stats":"blog=117142226&v=wpcom&tz=0&user_id=0&subd=nathan440&x_pagetype=infinite-click"}};
+		//]]>
+		</script>
+<!-- -->
+<script src="//0.gravatar.com/js/gprofiles.js?ver=201746y" type="text/javascript"></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var WPGroHo = {"my_hash":""};
+/* ]]> */
+</script>
+<script src="https://s1.wp.com/wp-content/mu-plugins/gravatar-hovercards/wpgroho.js?m=1380573781h" type="text/javascript"></script>
+<script>
+		//initialize and attach hovercards to all gravatars
+		jQuery( document ).ready( function( $ ) {
+
+			if (typeof Gravatar === "undefined"){
+				return;
+			}
+
+			if ( typeof Gravatar.init !== "function" ) {
+				return;
+			}			
+
+			Gravatar.profile_cb = function( hash, id ) {
+				WPGroHo.syncProfileData( hash, id );
+			};
+			Gravatar.my_hash = WPGroHo.my_hash;
+			Gravatar.init( 'body', '#wp-admin-bar-my-account' );
+		});
+	</script>
+<div style="display:none">
+</div>
+<script type="text/javascript">
+/* <![CDATA[ */
+var HighlanderComments = {"loggingInText":"Logging In\u2026","submittingText":"Posting Comment\u2026","postCommentText":"Post Comment","connectingToText":"Connecting to %s","commentingAsText":"%1$s: You are commenting using your %2$s account.","logoutText":"Log Out","loginText":"Log In","connectURL":"https:\/\/nathan440.wordpress.com\/public.api\/connect\/?action=request","logoutURL":"https:\/\/nathan440.wordpress.com\/wp-login.php?action=logout&_wpnonce=366cc870ab","homeURL":"https:\/\/nathan440.wordpress.com\/","postID":"412","gravDefault":"identicon","enterACommentError":"Please enter a comment","enterEmailError":"Please enter your email address here","invalidEmailError":"Invalid email address","enterAuthorError":"Please enter your name here","gravatarFromEmail":"This picture will show whenever you leave a comment. Click to customize it.","logInToExternalAccount":"Log in to use details from one of these accounts.","change":"Change","changeAccount":"Change Account","comment_registration":"0","userIsLoggedIn":"","isJetpack":"","text_direction":"ltr"};
+/* ]]> */
+</script>
+<script src="https://s2.wp.com/_static/??/wp-content/js/jquery/jquery.autoresize.js,/wp-content/mu-plugins/highlander-comments/script.js?m=1479964158j" type="text/javascript"></script>
+<div id="carousel-reblog-box">
+<form action="#" name="carousel-reblog">
+<textarea id="carousel-reblog-content" name="carousel-reblog-content" placeholder="Add your thoughts here... (optional)"></textarea>
+<label for="carousel-reblog-to-blog-id" id="carousel-reblog-lblogid">Post to</label>
+<select id="carousel-reblog-to-blog-id" name="carousel-reblog-to-blog-id">
+</select>
+<div class="submit">
+<span class="canceltext"><a class="cancel" href="#">Cancel</a></span>
+<input class="button" id="carousel-reblog-submit" name="carousel-reblog-submit" type="submit" value="Reblog Post"/>
+<input id="carousel-reblog-blog-id" type="hidden" value="117142226"/>
+<input id="carousel-reblog-blog-url" type="hidden" value="https://nathan440.wordpress.com"/>
+<input id="carousel-reblog-blog-title" type="hidden" value="Unity Blog"/>
+<input id="carousel-reblog-post-url" type="hidden" value=""/>
+<input id="carousel-reblog-post-title" type="hidden" value=""/>
+</div>
+<input id="_wpnonce" name="_wpnonce" type="hidden" value="562a7894d9"/><input name="_wp_http_referer" type="hidden" value="/"/> </form>
+<div class="arrow"></div>
+</div>
+<link href="https://s1.wp.com/wp-content/mu-plugins/carousel/jetpack-carousel.css?m=1481571546h" id="all-css-0-3" media="all" rel="stylesheet" type="text/css"/>
+<!--[if lte IE 8]>
+<link rel='stylesheet' id='jetpack-carousel-ie8fix-css'  href='https://s1.wp.com/wp-content/mu-plugins/carousel/jetpack-carousel-ie8fix.css?m=1412618825h&#038;ver=20121024' type='text/css' media='all' />
+<![endif]-->
+<link href="https://s1.wp.com/wp-content/mu-plugins/tiled-gallery/tiled-gallery.css?m=1443731146h" id="all-css-2-3" media="all" rel="stylesheet" type="text/css"/>
+<script type="text/javascript">
+/* <![CDATA[ */
+var libreadminbar = [""];
+/* ]]> */
+</script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var actionbardata = {"siteID":"117142226","siteName":"Unity Blog","siteURL":"http:\/\/nathan440.wordpress.com","icon":"<img alt='' src='https:\/\/s1.wp.com\/i\/logo\/wpcom-gray-white.png' class='avatar avatar-50' height='50' width='50' \/>","canManageOptions":"","canCustomizeSite":"","isFollowing":"","themeSlug":"pub\/libre","signupURL":"https:\/\/wordpress.com\/start\/","loginURL":"https:\/\/nathan440.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Fnathan440.wordpress.com%2F2017%2F05%2F22%2Fmay-22th%2F","themeURL":"","xhrURL":"https:\/\/nathan440.wordpress.com\/wp-admin\/admin-ajax.php","nonce":"2b89467e94","isSingular":"","isFolded":"","isLoggedIn":"","isMobile":"","subscribeNonce":"<input type=\"hidden\" id=\"_wpnonce\" name=\"_wpnonce\" value=\"31cd045610\" \/>","referer":"https:\/\/nathan440.wordpress.com\/","canFollow":"1","feedID":"53922267","statusMessage":"","customizeLink":"https:\/\/nathan440.wordpress.com\/wp-admin\/customize.php?url=https%3A%2F%2Fnathan440.wordpress.com%2F","i18n":{"view":"View site","follow":"Follow","following":"Following","edit":"Edit","login":"Log in","signup":"Sign up","customize":"Customize","report":"Report this content","themeInfo":"Get theme: Libre","shortlink":"Copy shortlink","copied":"Copied","followedText":"New posts from this site will now appear in your <a href=\"https:\/\/wordpress.com\/\">Reader<\/a>","foldBar":"Collapse this bar","unfoldBar":"Expand this bar","editSubs":"Manage subscriptions","viewReader":"View site in Reader","viewReadPost":"View post in Reader","subscribe":"Sign me up","enterEmail":"Enter your email address","followers":"","alreadyUser":"Already have a WordPress.com account? <a href=\"https:\/\/nathan440.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Fnathan440.wordpress.com%2F2017%2F05%2F22%2Fmay-22th%2F\">Log in now.<\/a>","stats":"Stats"}};
+/* ]]> */
+</script>
+<script type="text/javascript">
+/* <![CDATA[ */
+var jetpackCarouselStrings = {"widths":[370,700,1000,1200,1400,2000],"is_logged_in":"","lang":"en","ajaxurl":"https:\/\/nathan440.wordpress.com\/wp-admin\/admin-ajax.php","nonce":"b44c361079","display_exif":"1","display_geo":"1","single_image_gallery":"1","single_image_gallery_media_file":"","background_color":"black","comment":"Comment","post_comment":"Post Comment","write_comment":"Write a Comment...","loading_comments":"Loading Comments...","download_original":"View full size <span class=\"photo-size\">{0}<span class=\"photo-size-times\">\u00d7<\/span>{1}<\/span>","no_comment_text":"Please be sure to submit some text with your comment.","no_comment_email":"Please provide an email address to comment.","no_comment_author":"Please provide your name to comment.","comment_post_error":"Sorry, but there was an error posting your comment. Please try again later.","comment_approved":"Your comment was approved.","comment_unapproved":"Your comment is in moderation.","camera":"Camera","aperture":"Aperture","shutter_speed":"Shutter Speed","focal_length":"Focal Length","comment_registration":"0","require_name_email":"1","login_url":"https:\/\/nathan440.wordpress.com\/wp-login.php?redirect_to=https%3A%2F%2Fnathan440.wordpress.com%2F2017%2F05%2F22%2Fmay-22th%2F","blog_id":"117142226","local_comments_commenting_as":"<fieldset><label for=\"email\">Email (Required)<\/label> <input type=\"text\" name=\"email\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-email-field\" \/><\/fieldset><fieldset><label for=\"author\">Name (Required)<\/label> <input type=\"text\" name=\"author\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-author-field\" \/><\/fieldset><fieldset><label for=\"url\">Website<\/label> <input type=\"text\" name=\"url\" class=\"jp-carousel-comment-form-field jp-carousel-comment-form-text-field\" id=\"jp-carousel-comment-form-url-field\" \/><\/fieldset>","reblog":"Reblog","reblogged":"Reblogged","reblog_add_thoughts":"Add your thoughts here... (optional)","reblogging":"Reblogging...","post_reblog":"Post Reblog","stats_query_args":"blog=117142226&v=wpcom&tz=0&user_id=0&subd=nathan440","is_public":"0","reblog_enabled":""};
+/* ]]> */
+</script>
+<script src="https://s1.wp.com/_static/??-eJyVj8FuwyAQRH+olFSNU/VQ9VswXieLYaHs4rR/H7Bkq8rBSm7DMvM0o69J2UgCJNqxHmBGC+n31fGL/vcVikq+nJFYe5yA9U+BAhdDg4e8Y0YakVD+NnHvlQuEikulr+A+QyuxiEeMZGY8G8FIj7h5wqQ80qTGaAurEfdmmiEgqd5kHQwL5KpUnCFnHCp4uz1JkGzsxHsh2+a00KZ23NbkWBi8diCpktV6WDNI1pdWuO2/jrF3YOUeuNLmOi1qwwyyBJZ3ysCt8Hf4eusOn+8fx+7UuRtjj9Sl" type="text/javascript"></script>
+<script src="https://platform.twitter.com/widgets.js?ver=20111117" type="text/javascript"></script>
+<script src="https://s2.wp.com/_static/??-eJyVy8EOwiAMANAfslYTHXowfsuAhhRLJaxI/Hu97rTs+A4PR4XwViM1LB2q9MS6oA02owZe5vDy3CJUJlT6UCONrOmYlwPuuXX7sVCENItQ+671X8/yOF9u95Ob3NXlHw12Q+E=" type="text/javascript"></script>
+<script type="text/javascript">
+// <![CDATA[
+(function() {
+try{
+  if ( window.external &&'msIsSiteMode' in window.external) {
+    if (window.external.msIsSiteMode()) {
+      var jl = document.createElement('script');
+      jl.type='text/javascript';
+      jl.async=true;
+      jl.src='/wp-content/plugins/ie-sitemode/custom-jumplist.php';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(jl, s);
+    }
+  }
+}catch(e){}
+})();
+// ]]>
+</script> <script type="text/javascript">
+	var skimlinks_pub_id = "725X584219"
+	var skimlinks_sitename = "nathan440.wordpress.com";
+	</script>
+<script defer="" src="https://s.skimresources.com/js/725X1342.skimlinks.js" type="text/javascript"></script><script type="text/javascript">
+			jQuery.extend( infiniteScroll.settings.scripts, ["jquery","jquery-core","jquery-migrate","mobile-useragent-info","postmessage","jquery_inview","jetpack_resize","spin","jquery.spin","grofiles-cards","wpgroho","jquery.autoresize","highlander-comments","devicepx","jetpack_likes_queuehandler","the-neverending-homepage","libre-script","libre-navigation","libre-skip-link-focus-fix","wpcom-masterbar-js","wpcom-masterbar-tracks-js","wpcom-actionbar-bar","jetpack-carousel","swfobject","videopress","twitter-widgets","twitter-widgets-infinity","twitter-widgets-pending","tiled-gallery"] );
+			jQuery.extend( infiniteScroll.settings.styles, ["wpcom-smileys","jetpack_likes","the-neverending-homepage","wpcom-core-compat-playlist-styles","wpcom-text-widget-styles","mp6hacks","wpcom-bbpress2-staff-css","libre-style","jetpack-widget-social-icons-styles","noticons","geo-location-flair","reblogging","a8c-global-print","wpcom-actionbar-bar","libre-wpcom","h4-global","libre-libre","highlander-comments","highlander-comments-ie7","jetpack-carousel","tiled-gallery","jetpack-carousel-ie8fix"] );
+		</script><script async="" defer="" src="//stats.wp.com/w.js?56" type="text/javascript"></script>
+<script type="text/javascript">
+_tkq = window._tkq || [];
+_stq = window._stq || [];
+_tkq.push(['storeContext', {'blog_id':'117142226','blog_tz':'0','user_lang':'en','blog_lang':'en','user_id':'0'}]);
+_stq.push(['view', {'blog':'117142226','v':'wpcom','tz':'0','user_id':'0','subd':'nathan440'}]);
+_stq.push(['extra', {'crypt':'UE40eW5QN0p8M2Y/RE1mN3FZZmo1ciV5XXJsZ24wUjJacUxGNiVZTFVtXUxpbz8yZFVUTj9jNUg3XVRJPXJ6SSxrPTNscnkvSXpLMC5wRT04TVJ+V3NGTUNpQWhaN0lRdkU4cTIyTk5NJiZLTThRZkdhSEZQRGctdGtBRm4yMk9jcHBtPSZZUDAmUGNwRnUyUHVxdkVzWWFdXVdGWyVGY3Q1MmNJXVpQQzZYNWtjP3I4dVNJdkJzLTRvVS1yZyVDRWI5dVZsMT11M2xKS3UtV0MtMUcmW2hwb2sxdE1ZS3dvR35rLGhMSmZDW1pYcWFPUkt2UFJVX1pmSDEvW3prWHo1fE0='}]);
+_stq.push([ 'clickTrackerInit', '117142226', '0' ]);
+	</script>
+<noscript><img alt="" src="https://pixel.wp.com/b.gif?v=noscript" style="height:0px;width:0px;overflow:hidden"/></noscript>
+<script>
+if ( 'object' === typeof wpcom_mobile_user_agent_info ) {
+
+	wpcom_mobile_user_agent_info.init();
+	var mobileStatsQueryString = "";
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedPlatformName )
+		mobileStatsQueryString += "&x_" + 'mobile_platforms' + '=' + wpcom_mobile_user_agent_info.matchedPlatformName;
+	
+	if( false !== wpcom_mobile_user_agent_info.matchedUserAgentName )
+		mobileStatsQueryString += "&x_" + 'mobile_devices' + '=' + wpcom_mobile_user_agent_info.matchedUserAgentName;
+	
+	if( wpcom_mobile_user_agent_info.isIPad() )
+		mobileStatsQueryString += "&x_" + 'ipad_views' + '=' + 'views';
+
+	if( "" != mobileStatsQueryString ) {
+		new Image().src = document.location.protocol + '//pixel.wp.com/g.gif?v=wpcom-no-pv' + mobileStatsQueryString + '&baba=' + Math.random();
+	}
+	
+}
+</script>
+</body>
+</html>
