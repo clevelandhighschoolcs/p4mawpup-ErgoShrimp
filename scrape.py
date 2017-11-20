@@ -14,54 +14,51 @@ Things to do:
 
 
 
-"""
-if (url_input == 'https://nathan440.wordpress.com/'):
-    name = blog_update()
-else:
-    name = html_update()
+
+
 
 def blog_update():
-        webUrl = urllib2.urlopen(url_input)
-    if (webUrl.getcode() == 200):
-        soup = BeautifulSoup(webUrl, 'html.parser')
-        name_box = soup.find('div', attrs={'class': 'entry-meta'})
-        name = name_box.text.strip()
-        return name
-def blog_update():
-    name = "working on it"
-    return name
-""" 
-
-
-def main():
-    #Updates Page
     webUrl = urllib2.urlopen(url_input)
     if (webUrl.getcode() == 200):
         soup = BeautifulSoup(webUrl, 'html.parser')
         name_box = soup.find('div', attrs={'class': 'entry-meta'})
         name = name_box.text.strip()
-        print(name)
-        f = open("textfile.txt","w+")
-        f.write(name)
-        #Unable to get the f = read()
-        fileContent = name
-        #print(fileContent)
-        f.close()
-        time.sleep(float(time_input))
-    #Checks for change
-        webUrl = urllib2.urlopen(url_input)
+        return name
+def html_update():
+    webUrl = urllib2.urlopen(url_input)
+    if (webUrl.getcode() == 200):
         soup = BeautifulSoup(webUrl, 'html.parser')
-        name_box = soup.find('div', attrs={'class': 'entry-meta'})
-        name2 = name_box.text.strip()
-        print(name2)
-        if(str(name2)) == (str(fileContent)):
-            print("There has been no change!")
-        else:
-            print("There has been a change!")
+        page = soup.find('p')
+        name = page.text.strip()
+        return name
+
+
+def main():
+    #Updates Page
+    if (url_input == "https://nathan440.wordpress.com/"):
+        name = blog_update()
+    else:
+        name = html_update()
+    print(name)
+    f = open("textfile.txt","w+")
+    f.write(name)
+    #Unable to get the f = read()
+    fileContent = name
+    #print(fileContent)
+    f.close()
+    time.sleep(float(time_input))
+    #Checks for change
+    if (url_input == 'https://nathan440.wordpress.com/'):
+        name = blog_update()
+    else:
+        name = html_update()
+    print(name)
+    if(str(name)) == (str(fileContent)):
+        print("There has been no change!")
+    else:
+        print("There has been a change!")
         print("One scrape has passed")
         time.sleep(float(time_input))
-    else:
-        print("unable to access website")
 
 
 
