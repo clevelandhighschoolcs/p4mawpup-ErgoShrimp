@@ -39,7 +39,7 @@ def main():
         name = blog_update()
     else:
         name = html_update()
-    print(name)
+    #print(name)
     f = open("textfile.txt","w+")
     f.write(name)
     #Unable to get the f = read()
@@ -52,13 +52,13 @@ def main():
         name = blog_update()
     else:
         name = html_update()
-    print(name)
+    #print(name)
     if(str(name)) == (str(fileContent)):
         print("There has been no change!")
     else:
         print("There has been a change!")
-        print("One scrape has passed")
-        time.sleep(float(time_input))
+    print("One scrape has passed")
+    time.sleep(float(time_input))
 
 
 
@@ -68,7 +68,7 @@ print("Please note that the script runs forever until you press ctrl+c")
 time.sleep(2)
 print("Default waiting time is 5 seconds. Please input another interval you want.")
 time.sleep(1)
-time_input = raw_input("What time interval do you want? (input as a number)")
+time_input = raw_input("What time interval do you want? (input as a number of seconds)")
 try:
     float(time_input)
     if(time_input > 4):
