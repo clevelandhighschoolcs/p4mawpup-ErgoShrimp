@@ -17,7 +17,8 @@ Includes a .gitignore file, which means that Github doesn't see any text files o
 
 Inside terminal, type `scrape.py` to run program if you are inside of a virtual environment, otherwise type `python scrape.py`. To exit the program at any time press ctrl+c. It will then ask how frequently you want to check the url. Testing has shown that setting the time interval for longer than two minutes may work best. Using shorter times, such as seconds, means that many more scrapes will pass before the webscraper actually detects the website update (YMMV). Next the program asks for a url. If the url fails for whatever reason, a default url will be given.
 
-
+## Flowchart
+![Flowchart](Flowchart.png)
 
 
 ## Attributions
