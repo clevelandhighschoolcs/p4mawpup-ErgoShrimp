@@ -22,53 +22,21 @@ def blog_update():
     if (webUrl.getcode() == 200):
         soup = BeautifulSoup(webUrl, 'html.parser')
         name_box = soup.find('div', attrs={'class': 'entry-meta'})
-        name = name_box.text.strip()
-        return name
+        scrape = name_box.text.strip()
+        return scrape
 def html_update():
     webUrl = urllib2.urlopen(url_input)
     if (webUrl.getcode() == 200):
         soup = BeautifulSoup(webUrl, 'html.parser')
         page = soup.find('p')
-        name = page.text.strip()
-        return name
-
-
-def main():
-    #Updates Page
-    if (url_input == "https://nathan440.wordpress.com/"):
-        name = blog_update()
-    else:
-        name = html_update()
-    #print(name)
-    f = open("textfile.txt","w+")
-    f.write(name)
-    #Unable to get the f = read()
-    fileContent = name
-    #print(fileContent)
-    f.close()
-    time.sleep(float(time_input))
-    #Checks for change
-    if (url_input == 'https://nathan440.wordpress.com/'):
-        name = blog_update()
-    else:
-        name = html_update()
-    #print(name)
-    if(str(name)) == (str(fileContent)):
-        print("There has been no change!")
-    else:
-        print("There has been a change!")
-    print("One scrape has passed")
-    time.sleep(float(time_input))
+        scrape = page.text.strip()
+        return scrape
 
 
 
-print("Welcome to Nathan's Web scraper")
-time.sleep(1)
-print("Please note that the script runs forever until you press ctrl+c")
+print("Script runs forever until you press ctrl+c")
 time.sleep(2)
-print("Default waiting time is 5 seconds. Please input another interval you want.")
-time.sleep(1)
-time_input = raw_input("What time interval do you want? (input as a number of seconds)")
+time_input = raw_input("Default time interval is 5 seconds. input another time interval you want (input as a number of seconds)")
 try:
     float(time_input)
     if(time_input > 4):
@@ -90,14 +58,29 @@ try:
     else:
         code = webUrl.getcode()
         print("Error, web code return was '%s'" % code)
-        print("Going with Unity blog")
+        print("Using Nathan's Unity Blog")
         url_input = 'https://nathan440.wordpress.com/'
 except Exception:
     print("Request either nothing or not understand. Using Nathan's Unity Blog")
     url_input = 'https://nathan440.wordpress.com/'
+if (url_input == "https://nathan440.wordpress.com/"):
+    scrape = blog_update()
+else:
+    scrape = html_update()
+OlderScrape = scrape
+time.sleep(float(time_input))
 """
 blog_page = 'https://nathan440.wordpress.com/'
 webUrl = urllib2.urlopen(blog_page)
 """
 while True:
-    main()
+    if (url_input == 'https://nathan440.wordpress.com/'):
+        scrape = blog_update()
+    else:
+        scrape = html_update()
+    if(str(scrape)) == (str(OlderScrape)):
+        print("There has been no change!")
+    else:
+        print("There has been a change!")
+    OlderScrape = scrape
+    time.sleep(float(time_input))
