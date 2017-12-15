@@ -109,5 +109,6 @@ while True:
             to=my_phone_number,
             from_=twilio_phone_number
         )
+	break
     OlderScrape = scrape
     time.sleep(float(time_input))
